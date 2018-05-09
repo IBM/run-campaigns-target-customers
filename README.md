@@ -46,3 +46,20 @@ The intended audience for this journey are Developers and Data Scientists who wa
 # Watch the Video
 
 TODO
+
+# Steps
+
+Follow these steps to setup and run this developer journey. The steps are
+described in detail below.
+
+1. [Sign up for Watson Studio](#1-sign-up-for-watson-studio)
+1. [Setup and configure Watson Campaign Automation for Email campaigns](#2-setup-and-configure-watson-campaign-automation-for-email-campaigns]
+1. [Create the notebook](#3-create-the-notebook)
+1. [Add the data](#4-add-the-data)
+1. [Update the notebook with service credentials](#5-update-the-notebook-with-service-credentials)
+1. [Run the notebook](#6-run-the-notebook)
+1. [Analyze the results](#7-analyze-the-results)
+
+## 1. Sign up for Watson Studio
+
+Sign up for IBM's [Watson Studio](https://datascience.ibm.com/). By signing up for the Watson Studio, two services will be created - Spark and ObjectStore in your Bluemix account. 
