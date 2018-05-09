@@ -8,5 +8,7 @@ There are two steps to running a marketing campaign:
 
 * Run campaigns(e-mail, sms, phone etc.) on target audience 
 
+![](images/usecase_flow.png)
+
 
 
