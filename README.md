@@ -1,4 +1,4 @@
-# Determine target consumers and run marketing campaigns
+# Determine target audience and run marketing campaigns
 
 A business runs marketing campaigns promoting products that can lead to purchases and boost revenues. 
 
@@ -18,7 +18,7 @@ When the reader has completed this pattern, they will understand how to:
 * Use Python Pandas to derive insights and come up with a target audience based on the customer purchase data.
 * Integrate with Watson Campaign Automation to run a campaign on the target audience.
 
-The intended audience for this journey are Developers and Data Scientists who want to build a solution for building an end to end marketing campaign solution for a business.
+The intended audience for this journey are Developers and Data Scientists who want to build an end to end marketing campaign solution for a business.
 
 ![](images/architecture.png)
 
@@ -37,4 +37,12 @@ The intended audience for this journey are Developers and Data Scientists who wa
 
 * [Watson campaign automation](https://www.ibm.com/in-en/marketplace/digital-marketing-and-lead-management): Smarter marketing automation across all digital channels, powered by Watson.
 
+## Featured technologies
 
+* [Data Science](https://medium.com/ibm-data-science-experience/): Systems and scientific methods to analyze structured and unstructured data in order to extract knowledge and insights.
+
+* [Marketing automation](https://en.wikipedia.org/wiki/Marketing_automation): Software platforms and technologies designed for marketing departments and organizations to more effectively market on multiple channels online (such as email, social media, websites, etc.) and automate repetitive tasks.
+
+# Watch the Video
+
+TODO
