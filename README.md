@@ -71,10 +71,19 @@ Sign up for IBM's [Watson Studio](https://datascience.ibm.com/). By signing up f
 
 ## 2. Setup and configure Watson Campaign Automation for Email campaigns
 
-### Add application access to Watson Campa
+### Add application access to Watson Campaign Automation
 
 Login to the Watson Campaign Automation instance. Go to `Settings` and select `Organization Settings`.
 
 ![](images/invoke_settings.png)
 
+Goto `Application Account Access` and click `Add Application`.
+
+![](images/invoke_add_application.png)
+
+Add an application name and click `Add`.
+
+![](images/add_application_name.png)
+
+Click on 
 
