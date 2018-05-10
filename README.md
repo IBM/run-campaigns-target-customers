@@ -71,6 +71,39 @@ Sign up for IBM's [Watson Studio](https://datascience.ibm.com/). By signing up f
 
 ## 2. Setup and configure Watson Campaign Automation for Email campaigns
 
+### Create database
+
+Select `Data` and then `Databases`. Select `Shared` and click `Create`.
+
+![](images/create_database.png)
+
+Configure the database by entering a name `wdp_wca_db`. Click on `Next`.
+
+![](images/configure_database.png)
+
+Click on `Create` to create the database.
+
+![](images/create_db_finish.png)
+
+Note the database id by hovering the mouse over the database name in the list.
+
+![](images/note_database_id.png)
+
+### Create contact list for campaigns
+
+Select `Data` and then `Contact Lists`. Click on `Create Contact List`
+
+![](images/view_contact_list.png)
+
+Configure the campaign list by selecting the parent database as `wdp_wca_db`. Enter a name `campaign_canned_food_contact_list`. Click `OK`.
+
+![](images/configure_campaign_list.png)
+
+Note the contact list id by hovering the mouse over the contact list in the list.
+
+![](images/note_contact_list_id.png)
+
+
 ### Add application access to Watson Campaign Automation
 
 Login to the Watson Campaign Automation instance. Go to `Settings` and select `Organization Settings`.
