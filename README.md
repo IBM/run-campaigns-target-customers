@@ -1,12 +1,12 @@
 # Determine target audience and run marketing campaigns
 
-A business runs marketing campaigns promoting products that can lead to purchases and boost revenues. 
+A business runs marketing campaigns to promote products with the objective of boosting revenues. The campaigns need to be run on appropriate audiences for maximum impact. A consumer not interested in a product will ignore the campaign offer.
 
 There are two steps to running a marketing campaign:
 
-* Identifying the target audience - The target audience can be determined by analyzing the purchases and browsing history of customers.  
+* Identifying the target audience - The target audience can be determined by analyzing the purchases and browsing history of customers. This will help identify customers who could be interested in a product.  
 
-* Run campaigns(e-mail, sms, phone etc.) on target audience.
+* Run campaigns(e-mail, sms, phone etc.) on target audience to have maximum impact.
 
 
 ![](images/usecase_flow.png)
@@ -53,7 +53,7 @@ Follow these steps to setup and run this developer journey. The steps are
 described in detail below.
 
 1. [Sign up for Watson Studio](#1-sign-up-for-watson-studio)
-1. [Setup and configure Watson Campaign Automation for Email campaigns](#2-setup-and-configure-watson-campaign-automation-for-email-campaigns]
+1. [Setup and configure Watson Campaign Automation for Email campaigns](#2-setup-and-configure-watson-campaign-automation-for-email-campaigns)
 1. [Create the notebook](#3-create-the-notebook)
 1. [Add the data](#4-add-the-data)
 1. [Update the notebook with service credentials](#5-update-the-notebook-with-service-credentials)
