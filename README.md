@@ -11,6 +11,11 @@ There are two steps to running a marketing campaign:
 
 ![](images/usecase_flow.png)
 
+In this pattern, the following aspects are covered:
+* Identifying the target audience to run a campaign in a certain product category.
+* Run an E-mail campaign for the target audience.
+
+The customer demographics and sales data available at [location](https://dataplatform.ibm.com/exchange/public/entry/view/f8ccaf607372882403a37d9019b3abf4) is used to demonstrate the above. The sales data includes multiple categories of products. For this pattern, we demonstrate identifying the target audience and running a campaign for *Canned Foods*.
 
 When the reader has completed this pattern, they will understand how to:
 * Create and run a Jupyter notebook in Watson Studio.
