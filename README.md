@@ -103,6 +103,26 @@ Note the contact list id by hovering the mouse over the contact list in the list
 
 ![](images/note_contact_list_id.png)
 
+Click on `Content`. Under `Create Mailings` click on `Mailing Template`.
+
+![](images/invoke_create_mailing_template.png)
+
+Select the `Welcome Simple` mailing template.
+
+![](images/select_mailing_template.png)
+
+Click to open the selected mailing template. Click `Open` to customize the mailing template.
+
+![](images/open_mailing_template.png)
+
+Click on `Select Contacts` and select `campaign_canned_food_contact_list`. Click `Done`.
+
+![](images/customize_mailing_template.png)
+
+Customize the template as shown below and change the name to `CannedFoodsCampaignJune2018`. Click on `Save`.
+
+![](images/edit_name_save_template.png)
+
 
 ### Add application access to Watson Campaign Automation
 
@@ -114,9 +134,14 @@ Goto `Application Account Access` and click `Add Application`.
 
 ![](images/invoke_add_application.png)
 
-Add an application name and click `Add`.
+Add an application name `customer_insights_wstudio` and click `Add`.
 
 ![](images/add_application_name.png)
 
-Click on 
+Click on `Add Account Access`.
 
+![](images/invoke_account_access.png)
+
+Select the application `customer_insights_wstudio` and click `Add`.
+
+![](images/enter_account_access_details.png)
