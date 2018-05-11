@@ -23,7 +23,7 @@ When the reader has completed this pattern, they will understand how to:
 * Use Python Pandas to derive insights and come up with a target audience based on the customer purchase data.
 * Integrate with Watson Campaign Automation to run a campaign on the target audience.
 
-The intended audience for this journey are Developers and Data Scientists who want to build an end to end marketing campaign solution for a business.
+The intended audience for this code pattern are Developers and Data Scientists who want to build an end to end marketing campaign solution for a business.
 
 ![](images/architecture.png)
 
