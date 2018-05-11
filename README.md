@@ -165,3 +165,41 @@ Click on `Add Account Access`.
 Select the application `customer_insights_wstudio` and click `Add`.
 
 ![](images/enter_account_access_details.png)
+
+## 6. Create the notebook
+* In [Watson Studio](https://dataplatform.ibm.com) - create a project if necessary, provisioning an object storage service if required.
+* Go to `Tools` and select `Notebook`.
+* Select the `From URL` tab.
+* Enter a name for the notebook.
+* Optionally, enter a description for the notebook.
+* Select the project.
+* Enter this Notebook URL: https://github.com/IBM/run-campaigns-target-customers/blob/master/notebooks/campaign_management.ipynb
+* Select the runtime as shown below.
+* Click the `Create` button.
+
+![](doc/source/images/create_notebook_from_url.png)
+
+## 7. Add the data
+
+#### Add the data to the notebook
+
+* Please download the file from https://dataplatform.ibm.com/exchange/public/entry/view/f8ccaf607372882403a37d9019b3abf4.
+* Rename the file as `customer_orders.csv`
+* From your project page in Watson Studio, click `Find and Add Data` (look for the `10/01` icon)
+and its `Files` tab.
+* Click `browse` and navigate to where you downloaded `customer_orders.csv` on your computer.
+* Add the files to Object storage.
+
+![](doc/source/images/add_file.png)
+
+## 8. Update the notebook with service credentials 
+
+#### Add the Object Storage credentials to the notebook
+
+* Select the cell below `2.1 Add your service credentials for Object Storage` section in the notebook to update the credentials for Object Store.
+* Use `Find and Add Data` (look for the `10/01` icon) and its `Files` tab. You should see the file names uploaded earlier. Make sure your active cell is the empty one created earlier.
+* Select `Insert to code` below `olympics.csv`.
+* Click `Insert Crendentials` from the drop down menu.
+* If the credentials are written as `credential_2` change them to `credentials_1`.
+
+![](doc/source/images/objectstorage_credentials.png)
