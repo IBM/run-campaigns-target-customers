@@ -6,7 +6,7 @@ There are two steps to running a marketing campaign:
 
 * Identifying the target audience - The target audience can be determined by analyzing the purchases and browsing history of customers. This will help identify customers who could be interested in a product.  
 
-* Run campaigns(e-mail, sms, phone etc.) on target audience to have maximum impact.
+* Run campaigns(e-mail, sms, phone etc.) on target audience.
 
 
 ![](images/usecase_flow.png)
