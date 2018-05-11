@@ -58,20 +58,21 @@ Follow these steps to setup and run this developer journey. The steps are
 described in detail below.
 
 1. [Sign up for Watson Studio](#1-sign-up-for-watson-studio)
-1. [Setup and configure Watson Campaign Automation for Email campaigns](#2-setup-and-configure-watson-campaign-automation-for-email-campaigns)
-1. [Create the notebook](#3-create-the-notebook)
-1. [Add the data](#4-add-the-data)
-1. [Update the notebook with service credentials](#5-update-the-notebook-with-service-credentials)
-1. [Run the notebook](#6-run-the-notebook)
-1. [Analyze the results](#7-analyze-the-results)
+1. [Create contacts database in Watson Campaign Automation](#2-create-contacts-database-in-watson-campaign-automation)
+1. [Create campaign contact list in Watson Campaign Automation](#3-create-campaign-contact-list-in-watson-campaign-automation)
+1. [Create campaign mailing template in Watson Campaign Automation](#4-create-campaign-mailing-template-in-watson-campaign-automation)
+1. [Configure application access in Watson Campaign Automation](#5-configure-application-access-in-watson-campaign-automation)
+1. [Create the notebook](#6-create-the-notebook)
+1. [Add the data](#7-add-the-data)
+1. [Update the notebook with service credentials](#8-update-the-notebook-with-service-credentials)
+1. [Run the notebook](#9-run-the-notebook)
+1. [Analyze the results](#10-analyze-the-results)
 
 ## 1. Sign up for Watson Studio
 
 Sign up for IBM's [Watson Studio](https://datascience.ibm.com/). By signing up for the Watson Studio, two services will be created - Spark and ObjectStore in your Bluemix account. 
 
-## 2. Setup and configure Watson Campaign Automation for Email campaigns
-
-### Create database
+## 2. Create contacts database in Watson Campaign Automation
 
 Select `Data` and then `Databases`. Select `Shared` and click `Create`.
 
@@ -89,7 +90,7 @@ Note the database id by hovering the mouse over the database name in the list.
 
 ![](images/note_database_id.png)
 
-### Create contact list for campaigns
+## 3. Create campaign contact list in Watson Campaign Automation
 
 Select `Data` and then `Contact Lists`. Click on `Create Contact List`
 
@@ -102,6 +103,8 @@ Configure the campaign list by selecting the parent database as `wdp_wca_db`. En
 Note the contact list id by hovering the mouse over the contact list in the list.
 
 ![](images/note_contact_list_id.png)
+
+## 4. Create campaign mailing template in Watson Campaign Automation
 
 Click on `Content`. Under `Create Mailings` click on `Mailing Template`.
 
@@ -124,7 +127,7 @@ Customize the template as shown below and change the name to `CannedFoodsCampaig
 ![](images/edit_name_save_template.png)
 
 
-### Add application access to Watson Campaign Automation
+## 5. Configure application access in Watson Campaign Automation
 
 Login to the Watson Campaign Automation instance. Go to `Settings` and select `Organization Settings`.
 
