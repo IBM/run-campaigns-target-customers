@@ -86,13 +86,22 @@ Click on `Create` to create the database.
 
 ![](images/create_db_finish.png)
 
-Note the database id by hovering the mouse over the database name in the list.
+Select `Data` and then `Databases`. Click `View` to view the list of databases.
+
+![](images/goto_contact_db.png)
+
+Click on the database `wdp_wca_db`.
+
+![](images/select_contact_db.png)
+
+Note the database id.
 
 ![](images/note_database_id.png)
 
+
 ## 3. Create campaign contact list in Watson Campaign Automation
 
-Select `Data` and then `Contact Lists`. Click on `Create Contact List`
+Select `Data` and then `Contact Lists`. Click on `Create Contact List`.
 
 ![](images/view_contact_list.png)
 
@@ -100,7 +109,15 @@ Configure the campaign list by selecting the parent database as `wdp_wca_db`. En
 
 ![](images/configure_campaign_list.png)
 
-Note the contact list id by hovering the mouse over the contact list in the list.
+Select `Data` and then `Contact Lists`. Click on `Create Contact List`. Click `View` to view the list of contact lists.
+
+![](images/goto_contact_list.png)
+
+Click on the list `campaign_canned_food_contact_list`.
+
+![](images/select_contact_list.png)
+
+Note the contact list id.
 
 ![](images/note_contact_list_id.png)
 
