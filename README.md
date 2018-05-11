@@ -1,4 +1,4 @@
-# Determine target audience and run marketing campaigns (WORK IN PROGRESS)
+# Determine target audience and run marketing campaigns 
 
 A business runs marketing campaigns to promote products with the objective of boosting revenues. The campaigns need to be run on appropriate audiences for maximum impact. A consumer not interested in a product will ignore the campaign offer.
 
@@ -270,7 +270,12 @@ Once the notebook execution is complete, an email is sent to all the contacts in
 
 ![](images/campaign_mail.png)
 
+## Troubleshooting
 
+[See DEBUGGING.md.](DEBUGGING.md)
+
+## License
+[Apache 2.0](LICENSE)
 
 
 
