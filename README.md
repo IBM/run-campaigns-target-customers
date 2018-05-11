@@ -65,6 +65,7 @@ described in detail below.
 1. [Create the notebook](#6-create-the-notebook)
 1. [Add the data](#7-add-the-data)
 1. [Update the notebook with service credentials](#8-update-the-notebook-with-service-credentials)
+1. [Update Watson Campaign Automation URLs and credentials in the notebook](#9-update-watson-campaign-automation-urls-and-credentials-in-the-notebook)
 1. [Run the notebook](#9-run-the-notebook)
 1. [Analyze the results](#10-analyze-the-results)
 
@@ -143,6 +144,13 @@ Customize the template as shown below and change the name to `CannedFoodsCampaig
 
 ![](images/edit_name_save_template.png)
 
+Click on `Content`. Under `View Mailings` click on `Templates`.
+
+![](images/view_mailing_templates.png)
+
+The list of templates can be seen. Hover the mouse over `CannedFoodsCampaignJune2018` and note the template id.
+
+![](images/list_templates.png)
 
 ## 5. Configure application access in Watson Campaign Automation
 
@@ -158,6 +166,10 @@ Add an application name `customer_insights_wstudio` and click `Add`.
 
 ![](images/add_application_name.png)
 
+![](images/note_client_secret.png)
+
+Note the client id and client secret. Click `Close`.
+
 Click on `Add Account Access`.
 
 ![](images/invoke_account_access.png)
@@ -165,6 +177,8 @@ Click on `Add Account Access`.
 Select the application `customer_insights_wstudio` and click `Add`.
 
 ![](images/enter_account_access_details.png)
+
+A refresh token is sent to the registered email-d. Please note the refresh token.
 
 ## 6. Create the notebook
 * In [Watson Studio](https://dataplatform.ibm.com) - create a project if necessary, provisioning an object storage service if required.
@@ -203,3 +217,59 @@ and its `Files` tab.
 * If the credentials are written as `credential_2` change them to `credentials_1`.
 
 ![](images/objectstorage_credentials.png)
+
+## 9. Update Watson Campaign Automation URLs and credentials in the notebook
+
+#### Enter the access token generation URL,client id, client secret and refresh token in section 5.
+
+Replace the `<BASE_URL>` with the base url for the Watson Campaign Automation instance.
+Add the client id, client secret and refresh token noted in section 5.
+
+![](images/clientid_secret_token.png)
+
+#### Enter the url, database id, contact list id and template id noted in sections 2,3 and 4
+
+Replace the `<BASE_URL>` with the base url for the Watson Campaign Automation instance. The `<BASE_URL>` specified here can be different from the `<BASE_URL>` entered previously for getting access tokens.
+
+Enter the database id , contact list id and template id we noted in sections 2,3 and 4.
+
+![](images/xmlapiurl_dbid.png)
+
+## 9. Run the notebook
+
+When a notebook is executed, what is actually happening is that each code cell in
+the notebook is executed, in order, from top to bottom.
+
+Each code cell is selectable and is preceded by a tag in the left margin. The tag
+format is `In [x]:`. Depending on the state of the notebook, the `x` can be:
+
+* A `blank`, this indicates that the cell has never been executed.
+* A `number`, this number represents the relative order this code step was executed.
+* A `*`, this indicates that the cell is currently executing.
+
+There are several ways to execute the code cells in your notebook:
+
+* One cell at a time.
+  * Select the cell, and then press the `Play` button in the toolbar.
+* Batch mode, in sequential order.
+  * From the `Cell` menu bar, there are several options available. For example, you
+    can `Run All` cells in your notebook, or you can `Run All Below`, that will
+    start executing from the first cell under the currently selected cell, and then
+    continue executing all cells that follow.
+* At a scheduled time.
+  * Press the `Schedule` button located in the top right section of your notebook
+    panel. Here you can schedule your notebook to be executed once at some future
+    time, or repeatedly at your specified interval.
+
+For this Notebook, you can simply `Run All` cells.
+
+## 10. Analyze the results
+
+Once the notebook execution is complete, an email is sent to all the contacts in the contact list `campaign_canned_food_contact_list`.
+
+![](images/campaign_mail.png)
+
+
+
+
+
