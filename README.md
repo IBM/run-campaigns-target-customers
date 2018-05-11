@@ -1,4 +1,4 @@
-# Determine target audience and run marketing campaigns
+# Determine target audience and run marketing campaigns (WORK IN PROGRESS)
 
 A business runs marketing campaigns to promote products with the objective of boosting revenues. The campaigns need to be run on appropriate audiences for maximum impact. A consumer not interested in a product will ignore the campaign offer.
 
