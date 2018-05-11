@@ -166,9 +166,9 @@ Add an application name `customer_insights_wstudio` and click `Add`.
 
 ![](images/add_application_name.png)
 
-![](images/note_client_secret.png)
-
 Note the client id and client secret. Click `Close`.
+
+![](images/note_client_secret.png)
 
 Click on `Add Account Access`.
 
@@ -199,6 +199,7 @@ A refresh token is sent to the registered email-d. Please note the refresh token
 
 * Please download the file from https://dataplatform.ibm.com/exchange/public/entry/view/f8ccaf607372882403a37d9019b3abf4.
 * Rename the file as `customer_orders.csv`
+* All the email addresses in the file are invalid. For testing the pattern, modify and add valid email address for couple of contacts that get added to Watson Campaign Automation after the notebook execution.
 * From your project page in Watson Studio, click `Find and Add Data` (look for the `10/01` icon)
 and its `Files` tab.
 * Click `browse` and navigate to where you downloaded `customer_orders.csv` on your computer.
