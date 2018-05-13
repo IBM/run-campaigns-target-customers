@@ -75,6 +75,8 @@ Sign up for IBM's [Watson Studio](https://datascience.ibm.com/). By signing up f
 
 ## 2. Create contacts database in Watson Campaign Automation
 
+Login to the [Watson campaign automation](https://www.ibm.com/in-en/marketplace/digital-marketing-and-lead-management) instance.
+
 Select `Data` and then `Databases`. Select `Shared` and click `Create`.
 
 ![](images/create_database.png)
@@ -110,7 +112,7 @@ Configure the campaign list by selecting the parent database as `wdp_wca_db`. En
 
 ![](images/configure_campaign_list.png)
 
-Select `Data` and then `Contact Lists`. Click on `Create Contact List`. Click `View` to view the list of contact lists.
+Select `Data` and then `Contact Lists`. Click `View` to view the list of contact lists.
 
 ![](images/goto_contact_list.png)
 
