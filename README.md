@@ -4,7 +4,7 @@ A business runs marketing campaigns to promote products with the objective of bo
 
 There are two steps to running a marketing campaign:
 
-* Identifying the target audience - The target audience can be determined by analyzing the purchases and browsing history of customers. This will help identify customers who could be interested in a product.  
+* Identifying the target audience - The target audience can be determined by analyzing the purchases and browsing history of customers, social media posts, reviews and other data sources. This will help identify customers who could be interested in a product.  
 
 * Run campaigns(e-mail, sms, phone etc.) on target audience.
 
