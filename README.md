@@ -50,7 +50,7 @@ The intended audience for this code pattern are Developers and Data Scientists w
 
 # Watch the Video
 
-TODO
+[![](http://img.youtube.com/vi/_Nk4vjHsxfI/0.jpg)](https://youtu.be/_Nk4vjHsxfI)
 
 # Steps
 
