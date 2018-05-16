@@ -71,7 +71,7 @@ described in detail below.
 
 ## 1. Sign up for Watson Studio
 
-Sign up for IBM's [Watson Studio](https://datascience.ibm.com/). By signing up for the Watson Studio, two services will be created - Spark and ObjectStore in your Bluemix account. 
+Sign up for IBM's [Watson Studio](https://datascience.ibm.com/). 
 
 ## 2. Create contacts database in Watson Campaign Automation
 
